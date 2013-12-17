@@ -1,0 +1,654 @@
+TBluetooth
+v7
+r0
+t335330475.521993
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Bluetooth.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Info.plist Bluetooth-Info.plist
+cCompileXIB /Users/mb471/Documents/Bluetooth/MainWindow.xib
+cCompileXIB /Users/mb471/Documents/Bluetooth/BluetoothViewController.xib
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/top1@2x.png Image/top1@2x.png
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/bg@2x.png Image/bg@2x.png
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/bg.png Image/bg.png
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/top1.png Image/top1.png
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon_02.png Image/icon_02.png
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon_02@2x.png Image/icon_02@2x.png
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/connect.png Image/connect.png
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/disconnect.png Image/disconnect.png
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/send.png Image/send.png
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/textview.png Image/textview.png
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon.png Image/icon.png
+cCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon@2x.png Image/icon@2x.png
+cProcessPCH /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-hilmkgpbwbzldldibewidfzixelt/Bluetooth_Prefix.pch.gch Bluetooth_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-dlefafnwqndvuqghgzqpisacpdnw/Bluetooth_Prefix.pch.gch Bluetooth_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/main.o /Users/mb471/Documents/Bluetooth/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/BluetoothAppDelegate.o /Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/BluetoothViewController.o /Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/main.o /Users/mb471/Documents/Bluetooth/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/BluetoothAppDelegate.o /Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/Bluetooth normal armv6
+cCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/BluetoothViewController.o /Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/Bluetooth normal armv7
+cCreateUniversalBinary /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Bluetooth normal "armv6 armv7"
+cGenerateDSYMFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app.dSYM /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Bluetooth
+cProcessProductPackaging "/Users/mb471/Library/MobileDevice/Provisioning Profiles/32A5E3C1-276F-4DBE-BB9D-59DDF90E9DB9.mobileprovision" /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/embedded.mobileprovision
+cTouch /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth.xcent
+cCodeSign /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D5F25270000000000000110
+t1298081063
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004D5DEAFE00000000002A85D0
+t1298000638
+s2786768
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004D5DEAE30000000000000348
+t1298000611
+s840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/mb471/Documents/Bluetooth/BluetoothViewController.xib
+c000000004E4A1E89000000000000A40A
+t1313480329
+s41994
+
+N/Users/mb471/Documents/Bluetooth/Bluetooth_Prefix.pch
+c000000004E48D4F400000000000000BB
+t1313395956
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.h
+c000000004E48D4F400000000000001E3
+t1313395956
+s483
+i<UIKit/UIKit.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m
+c000000004E48D4F40000000000000AAC
+t1313395956
+s2732
+i"BluetoothAppDelegate.h"
+i"BluetoothViewController.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.h
+c000000004E4B3F600000000000000518
+t1313554272
+s1304
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m
+c000000004E4B41BD0000000000001575
+t1313554877
+s5493
+i"BluetoothViewController.h"
+
+N/Users/mb471/Documents/Bluetooth/Image/bg.png
+c000000004E3259110000000000006064
+t1311922449
+s24676
+
+N/Users/mb471/Documents/Bluetooth/Image/bg@2x.png
+c000000004E325915000000000000FF15
+t1311922453
+s65301
+
+N/Users/mb471/Documents/Bluetooth/Image/connect.png
+c000000004CAEC3C80000000000002A04
+t1286521800
+s10756
+
+N/Users/mb471/Documents/Bluetooth/Image/disconnect.png
+c000000004CAEC3C8000000000000293B
+t1286521800
+s10555
+
+N/Users/mb471/Documents/Bluetooth/Image/icon.png
+c000000004E4C7E02000000000000142B
+t1313635842
+s5163
+
+N/Users/mb471/Documents/Bluetooth/Image/icon@2x.png
+c000000004E4C84DA0000000000004BC7
+t1313637594
+s19399
+
+N/Users/mb471/Documents/Bluetooth/Image/icon_02.png
+c000000004E48D8390000000000000F7E
+t1313396793
+s3966
+
+N/Users/mb471/Documents/Bluetooth/Image/icon_02@2x.png
+c000000004E32591100000000000018EE
+t1311922449
+s6382
+
+N/Users/mb471/Documents/Bluetooth/Image/send.png
+c000000004CAEC3C800000000000029B0
+t1286521800
+s10672
+
+N/Users/mb471/Documents/Bluetooth/Image/textview.png
+c000000004E3259110000000000000F55
+t1311922449
+s3925
+
+N/Users/mb471/Documents/Bluetooth/Image/top1.png
+c000000004E48D7990000000000001BEF
+t1313396633
+s7151
+
+N/Users/mb471/Documents/Bluetooth/Image/top1@2x.png
+c000000004E325915000000000000699C
+t1311922453
+s27036
+
+N/Users/mb471/Documents/Bluetooth/MainWindow.xib
+c000000004E48D4F40000000000004E41
+t1313395956
+s20033
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth.xcent
+t1313637675
+s416
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/Bluetooth
+t1313637675
+s26744
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/Bluetooth.LinkFileList
+c000000004E4C85280000000000000179
+t1313637672
+s377
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/BluetoothAppDelegate.o
+t1313637674
+s52288
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/BluetoothViewController.o
+t1313637674
+s67024
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/main.o
+t1313637674
+s6492
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/Bluetooth
+t1313637675
+s26744
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/Bluetooth.LinkFileList
+c000000004E4C85280000000000000179
+t1313637672
+s377
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/BluetoothAppDelegate.o
+t1313637674
+s52180
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/BluetoothViewController.o
+t1313637675
+s66632
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/main.o
+t1313637674
+s6476
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app
+t1313637675
+s782
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app.dSYM
+t1313637675
+s102
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Bluetooth
+t1313637675
+s59512
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/BluetoothViewController.nib
+t1313637673
+s6604
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Info.plist
+t1313637672
+s840
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/MainWindow.nib
+t1313637673
+s1685
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/PkgInfo
+t1313637672
+s8
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/ResourceRules.plist
+t1313637672
+s485
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/bg.png
+t1313637674
+s26673
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/bg@2x.png
+t1313637674
+s69838
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/connect.png
+t1313637674
+s10661
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/disconnect.png
+t1313637674
+s10686
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/embedded.mobileprovision
+t1313637675
+s7700
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon.png
+t1313637674
+s6074
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon@2x.png
+t1313637674
+s22481
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon_02.png
+t1313637674
+s3885
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon_02@2x.png
+t1313637674
+s6489
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/send.png
+t1313637674
+s10701
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/textview.png
+t1313637674
+s3983
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/top1.png
+t1313637674
+s7150
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/top1@2x.png
+t1313637673
+s27267
+
+N/Users/mb471/Documents/Bluetooth/main.m
+c000000004E48D4F40000000000000163
+t1313395956
+s355
+i<UIKit/UIKit.h>
+
+N/Users/mb471/Library/MobileDevice/Provisioning Profiles/32A5E3C1-276F-4DBE-BB9D-59DDF90E9DB9.mobileprovision
+c000000004E264E990000000000001E14
+t1311133337
+s7700
+
+N/var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-dlefafnwqndvuqghgzqpisacpdnw/Bluetooth_Prefix.pch.gch
+t1313398749
+s10667932
+
+N/var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-hilmkgpbwbzldldibewidfzixelt/Bluetooth_Prefix.pch.gch
+t1313398749
+s10209180
+
+NBluetooth-Info.plist
+c000000004E48E6300000000000000387
+t1313400368
+s903
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335330472#335330472#0(0"0(0#1#0"8604602400#0"0#
+
+CCodeSign /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app
+s335330475.178591
+e335330475.521955
+r1
+xCodeSign
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/Bluetooth.app335330475#335330475#0(0"0(0#0#67"/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app8602192928#634"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: changlei han (CKRBK8NJR3)" --resource-rules=/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/ResourceRules.plist --entitlements /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth.xcent /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app0#
+
+CCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/BluetoothAppDelegate.o /Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335330474.635780
+e335330474.824081
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/BluetoothAppDelegate.o
+x/Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m335330474#335330474#0(0"0(0#0#63"/Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m8599919904#1738"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos -I/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources/armv6 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-hilmkgpbwbzldldibewidfzixelt/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/BluetoothAppDelegate.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/BluetoothViewController.o /Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335330474.794785
+e335330474.912403
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/BluetoothViewController.o
+x/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m: In function '-[BluetoothViewController peerPickerController:didConnectPeer:toSession:]':
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:196: warning: local declaration of 'picker' hides instance variable
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:197: warning: local declaration of 'picker' hides instance variable
+lSLF07#2@74"Compile /Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m335330474#335330474#0(427"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m: In function '-[BluetoothViewController peerPickerController:didConnectPeer:toSession:]':/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:196: warning: local declaration of 'picker' hides instance variable/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:197: warning: local declaration of 'picker' hides instance variable2(22@53"Local declaration of 'picker' hides instance variable335330474#157#135#0(6@66"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m335247677#196#0#196#0#0"0(22@53"Local declaration of 'picker' hides instance variable335330474#292#135#0(6@66"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m335247677#197#0#197#0#0"0(0#0#66"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m8608310688#1744"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos -I/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources/armv6 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-hilmkgpbwbzldldibewidfzixelt/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/BluetoothViewController.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/main.o /Users/mb471/Documents/Bluetooth/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s335330474.634846
+e335330474.794678
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/main.o
+x/Users/mb471/Documents/Bluetooth/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/mb471/Documents/Bluetooth/main.m335330474#335330474#0(0"0(0#0#39"/Users/mb471/Documents/Bluetooth/main.m8602002176#1698"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos -I/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources/armv6 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-hilmkgpbwbzldldibewidfzixelt/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/main.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/BluetoothAppDelegate.o /Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335330474.879669
+e335330474.985216
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/BluetoothAppDelegate.o
+x/Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m335330474#335330474#0(0"0(0#0#63"/Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m8607419744#1738"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos -I/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources/armv7 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-dlefafnwqndvuqghgzqpisacpdnw/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/BluetoothAppDelegate.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/BluetoothViewController.o /Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335330474.985314
+e335330475.087431
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/BluetoothViewController.o
+x/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m: In function '-[BluetoothViewController peerPickerController:didConnectPeer:toSession:]':
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:196: warning: local declaration of 'picker' hides instance variable
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:197: warning: local declaration of 'picker' hides instance variable
+lSLF07#2@74"Compile /Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m335330474#335330475#0(427"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m: In function '-[BluetoothViewController peerPickerController:didConnectPeer:toSession:]':/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:196: warning: local declaration of 'picker' hides instance variable/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:197: warning: local declaration of 'picker' hides instance variable2(22@53"Local declaration of 'picker' hides instance variable335330475#157#135#0(6@66"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m335247677#196#0#196#0#0"0(22@53"Local declaration of 'picker' hides instance variable335330475#292#135#0(6@66"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m335247677#197#0#197#0#0"0(0#0#66"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m8606791456#1744"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos -I/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources/armv7 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-dlefafnwqndvuqghgzqpisacpdnw/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/BluetoothViewController.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/main.o /Users/mb471/Documents/Bluetooth/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s335330474.824280
+e335330474.879560
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/main.o
+x/Users/mb471/Documents/Bluetooth/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/mb471/Documents/Bluetooth/main.m335330474#335330474#0(0"0(0#0#39"/Users/mb471/Documents/Bluetooth/main.m8607848832#1698"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos -I/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources/armv7 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-dlefafnwqndvuqghgzqpisacpdnw/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/main.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/mb471/Documents/Bluetooth/BluetoothViewController.xib
+s335330472.789479
+e335330473.842385
+r1
+xCompileXIB
+x/Users/mb471/Documents/Bluetooth/BluetoothViewController.xib
+lSLF07#2@38"CompileXIB BluetoothViewController.xib335330472#335330473#0(0"0(0#0#60"/Users/mb471/Documents/Bluetooth/BluetoothViewController.xib8606180192#552"    cd /Users/mb471/Documents/Bluetooth    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/BluetoothViewController.nib /Users/mb471/Documents/Bluetooth/BluetoothViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/mb471/Documents/Bluetooth/MainWindow.xib
+s335330472.788830
+e335330473.655900
+r1
+xCompileXIB
+x/Users/mb471/Documents/Bluetooth/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib335330472#335330473#0(0"0(0#0#47"/Users/mb471/Documents/Bluetooth/MainWindow.xib8606420064#526"    cd /Users/mb471/Documents/Bluetooth    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/MainWindow.nib /Users/mb471/Documents/Bluetooth/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/bg.png Image/bg.png
+s335330473.959931
+e335330474.131877
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/bg.png
+xImage/bg.png
+lSLF07#2@66"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/bg.png Image/bg.png335330473#335330474#0(0"0(0#0#45"/Users/mb471/Documents/Bluetooth/Image/bg.png8603258560#442"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/bg.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/bg.png0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/bg@2x.png Image/bg@2x.png
+s335330473.842475
+e335330474.453833
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/bg@2x.png
+xImage/bg@2x.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/bg@2x.png Image/bg@2x.png335330473#335330474#0(0"0(0#0#48"/Users/mb471/Documents/Bluetooth/Image/bg@2x.png8603860928#448"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/bg@2x.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/bg@2x.png0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/connect.png Image/connect.png
+s335330474.268830
+e335330474.347239
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/connect.png
+xImage/connect.png
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/connect.png Image/connect.png335330474#335330474#0(0"0(0#0#50"/Users/mb471/Documents/Bluetooth/Image/connect.png8607483072#452"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/connect.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/connect.png0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/disconnect.png Image/disconnect.png
+s335330474.347324
+e335330474.396290
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/disconnect.png
+xImage/disconnect.png
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/disconnect.png Image/disconnect.png335330474#335330474#0(0"0(0#0#53"/Users/mb471/Documents/Bluetooth/Image/disconnect.png8606589184#458"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/disconnect.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/disconnect.png0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon.png Image/icon.png
+s335330474.506733
+e335330474.599601
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon.png
+xImage/icon.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/icon.png Image/icon.png335330474#335330474#0(0"0(0#0#47"/Users/mb471/Documents/Bluetooth/Image/icon.png8602975104#446"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/icon.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon.png0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon@2x.png Image/icon@2x.png
+s335330474.577348
+e335330474.634658
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon@2x.png
+xImage/icon@2x.png
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/icon@2x.png Image/icon@2x.png335330474#335330474#0(0"0(0#0#50"/Users/mb471/Documents/Bluetooth/Image/icon@2x.png8602478592#452"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/icon@2x.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon@2x.png0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon_02.png Image/icon_02.png
+s335330474.153554
+e335330474.202906
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon_02.png
+xImage/icon_02.png
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/icon_02.png Image/icon_02.png335330474#335330474#0(0"0(0#0#50"/Users/mb471/Documents/Bluetooth/Image/icon_02.png8603468672#452"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/icon_02.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon_02.png0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon_02@2x.png Image/icon_02@2x.png
+s335330474.202995
+e335330474.268682
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon_02@2x.png
+xImage/icon_02@2x.png
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/icon_02@2x.png Image/icon_02@2x.png335330474#335330474#0(0"0(0#0#53"/Users/mb471/Documents/Bluetooth/Image/icon_02@2x.png8608179840#458"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/icon_02@2x.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/icon_02@2x.png0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/send.png Image/send.png
+s335330474.396377
+e335330474.506629
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/send.png
+xImage/send.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/send.png Image/send.png335330474#335330474#0(0"0(0#0#47"/Users/mb471/Documents/Bluetooth/Image/send.png8606302272#446"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/send.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/send.png0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/textview.png Image/textview.png
+s335330474.453920
+e335330474.577250
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/textview.png
+xImage/textview.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/textview.png Image/textview.png335330474#335330474#0(0"0(0#0#51"/Users/mb471/Documents/Bluetooth/Image/textview.png8604426976#454"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/textview.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/textview.png0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/top1.png Image/top1.png
+s335330474.131962
+e335330474.153447
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/top1.png
+xImage/top1.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/top1.png Image/top1.png335330474#335330474#0(0"0(0#0#47"/Users/mb471/Documents/Bluetooth/Image/top1.png8601957536#446"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/top1.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/top1.png0#
+
+CCopyPNGFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/top1@2x.png Image/top1@2x.png
+s335330473.655982
+e335330473.959847
+r1
+xCopyPNGFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/top1@2x.png
+xImage/top1@2x.png
+lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/Bluetooth.app/top1@2x.png Image/top1@2x.png335330473#335330473#0(0"0(0#0#50"/Users/mb471/Documents/Bluetooth/Image/top1@2x.png8605750208#452"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mb471/Documents/Bluetooth/Image/top1@2x.png /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/top1@2x.png0#
+
+CCpResource build/Debug-iphoneos/Bluetooth.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s335330472.744308
+e335330472.788740
+r1
+xCpResource
+xbuild/Debug-iphoneos/Bluetooth.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist335330472#335330472#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8606443264#484"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app0#
+
+CCreateUniversalBinary /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Bluetooth normal "armv6 armv7"
+s335330475.129615
+e335330475.132457
+r1
+xCreateUniversalBinary
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Bluetooth
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Debug-iphoneos/Bluetooth.app/Bluetooth normal "armv6 armv7"335330475#335330475#0(0"0(0#0#44"/Users/mb471/Documents/Bluetooth/armv6 armv78608701664#510"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/Bluetooth /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/Bluetooth -output /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Bluetooth0#
+
+CGenerateDSYMFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app.dSYM /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Bluetooth
+s335330475.132523
+e335330475.156141
+r1
+xGenerateDSYMFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app.dSYM
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Bluetooth
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/Bluetooth.app.dSYM build/Debug-iphoneos/Bluetooth.app/Bluetooth335330475#335330475#0(0"0(0#0#77"/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Bluetooth8608483744#350"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Bluetooth -o /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app.dSYM0#
+
+CLd /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/Bluetooth normal armv6
+s335330474.912485
+e335330475.104873
+r1
+xLd
+x/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/Bluetooth
+xnormal
+xarmv6
+lSLF07#2@121"Link /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/Bluetooth335330474#335330475#0(0"0(0#0#0"8607272000#860"    cd /Users/mb471/Documents/Bluetooth    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos -F/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos -filelist /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/Bluetooth.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv6/Bluetooth0#
+
+CLd /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/Bluetooth normal armv7
+s335330475.087523
+e335330475.129526
+r1
+xLd
+x/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/Bluetooth
+xnormal
+xarmv7
+lSLF07#2@121"Link /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/Bluetooth335330475#335330475#0(0"0(0#0#0"8606518784#860"    cd /Users/mb471/Documents/Bluetooth    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos -F/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos -filelist /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/Bluetooth.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Objects-normal/armv7/Bluetooth0#
+
+CProcessInfoPlistFile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Info.plist Bluetooth-Info.plist
+s335330472.764229
+e335330472.775830
+r1
+xProcessInfoPlistFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Info.plist
+xBluetooth-Info.plist
+lSLF07#2@28"Process Bluetooth-Info.plist335330472#335330472#0(0"0(0#0#53"/Users/mb471/Documents/Bluetooth/Bluetooth-Info.plist8610162112#546"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Bluetooth-Info.plist -genpkginfo /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/ResourceRules.plist -o /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/Info.plist0#
+
+CProcessPCH /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-dlefafnwqndvuqghgzqpisacpdnw/Bluetooth_Prefix.pch.gch Bluetooth_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-hilmkgpbwbzldldibewidfzixelt/Bluetooth_Prefix.pch.gch Bluetooth_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/mb471/Library/MobileDevice/Provisioning Profiles/32A5E3C1-276F-4DBE-BB9D-59DDF90E9DB9.mobileprovision" /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/embedded.mobileprovision
+s335330475.156242
+e335330475.157287
+r1
+xProcessProductPackaging
+x/Users/mb471/Library/MobileDevice/Provisioning Profiles/32A5E3C1-276F-4DBE-BB9D-59DDF90E9DB9.mobileprovision
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/mb471/Library/MobileDevice/Provisioning Profiles/32A5E3C1-276F-4DBE-BB9D-59DDF90E9DB9.mobileprovision" build/Debug-iphoneos/Bluetooth.app/embedded.mobileprovision335330475#335330475#0(0"0(0#0#92"/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/embedded.mobileprovision8607964992#413"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/mb471/Library/MobileDevice/Provisioning Profiles/32A5E3C1-276F-4DBE-BB9D-59DDF90E9DB9.mobileprovision" -o /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth.xcent
+s335330475.160529
+e335330475.178515
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth.xcent
+lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth.xcent335330475#335330475#0(0"0(0#0#101"/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth.xcent8606157184#426"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphoneos/Bluetooth.build/Bluetooth.xcent0#
+
+CTouch /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app
+s335330475.157339
+e335330475.160360
+r1
+xTouch
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app
+lSLF07#2@73"Touch /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app335330475#335330475#0(0"0(0#0#0"8607588608#254"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mb471/Documents/Bluetooth/build/Debug-iphoneos/Bluetooth.app0#
+

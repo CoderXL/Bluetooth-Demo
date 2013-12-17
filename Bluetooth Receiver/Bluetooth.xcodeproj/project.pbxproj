@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* BluetoothAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* BluetoothAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* BluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* BluetoothViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* BluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* BluetoothViewController.m */; };
+		EB06AD0813FEA7CA00D47B1B /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06ACF013FEA7CA00D47B1B /* NSObject+SBJson.m */; };
+		EB06AD0913FEA7CA00D47B1B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06ACF313FEA7CA00D47B1B /* SBJsonParser.m */; };
+		EB06AD0A13FEA7CA00D47B1B /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06ACF513FEA7CA00D47B1B /* SBJsonStreamParser.m */; };
+		EB06AD0B13FEA7CA00D47B1B /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06ACF713FEA7CA00D47B1B /* SBJsonStreamParserAccumulator.m */; };
+		EB06AD0C13FEA7CA00D47B1B /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06ACF913FEA7CA00D47B1B /* SBJsonStreamParserAdapter.m */; };
+		EB06AD0D13FEA7CA00D47B1B /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06ACFB13FEA7CA00D47B1B /* SBJsonStreamParserState.m */; };
+		EB06AD0E13FEA7CA00D47B1B /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06ACFD13FEA7CA00D47B1B /* SBJsonStreamWriter.m */; };
+		EB06AD0F13FEA7CA00D47B1B /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06ACFF13FEA7CA00D47B1B /* SBJsonStreamWriterAccumulator.m */; };
+		EB06AD1013FEA7CA00D47B1B /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06AD0113FEA7CA00D47B1B /* SBJsonStreamWriterState.m */; };
+		EB06AD1113FEA7CA00D47B1B /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06AD0313FEA7CA00D47B1B /* SBJsonTokeniser.m */; };
+		EB06AD1213FEA7CA00D47B1B /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06AD0513FEA7CA00D47B1B /* SBJsonUTF8Stream.m */; };
+		EB06AD1313FEA7CA00D47B1B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06AD0713FEA7CA00D47B1B /* SBJsonWriter.m */; };
+		EB65E95A13F90DBA00B99CA8 /* top1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E95913F90DBA00B99CA8 /* top1@2x.png */; };
+		EB65E95E13F90DFD00B99CA8 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E95D13F90DFD00B99CA8 /* bg@2x.png */; };
+		EB65E96213F90EA700B99CA8 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E96013F90EA700B99CA8 /* bg.png */; };
+		EB65E96313F90EA700B99CA8 /* top1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E96113F90EA700B99CA8 /* top1.png */; };
+		EB65E96513F90F9400B99CA8 /* icon_02.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E96413F90F9400B99CA8 /* icon_02.png */; };
+		EB65E96713F90FD600B99CA8 /* icon_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E96613F90FD600B99CA8 /* icon_02@2x.png */; };
+		EB65E99113F9136800B99CA8 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB65E99013F9136800B99CA8 /* GameKit.framework */; };
+		EB65E99913F9142E00B99CA8 /* connect.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E99613F9142E00B99CA8 /* connect.png */; };
+		EB65E99A13F9142E00B99CA8 /* disconnect.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E99713F9142E00B99CA8 /* disconnect.png */; };
+		EB65E99B13F9142E00B99CA8 /* send.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E99813F9142E00B99CA8 /* send.png */; };
+		EB65E99E13F9150400B99CA8 /* textview.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E99D13F9150400B99CA8 /* textview.png */; };
+		EB65E9B813F9171A00B99CA8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E9B613F9171A00B99CA8 /* icon.png */; };
+		EB65E9B913F9171A00B99CA8 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65E9B713F9171A00B99CA8 /* icon@2x.png */; };
+		EBB853A113FF83060058607B /* button4.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB8539F13FF83060058607B /* button4.png */; };
+		EBB853A213FF83060058607B /* button4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB853A013FF83060058607B /* button4@2x.png */; };
+		EBB8545013FF8D810058607B /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB8544F13FF8D810058607B /* image.png */; };
+		EBB8548813FF90920058607B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB8548713FF90920058607B /* QuartzCore.framework */; };
+		EBE37EED13FE058A008444DD /* bj.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE37EEB13FE058A008444DD /* bj.png */; };
+		EBE37EEE13FE058A008444DD /* bj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE37EEC13FE058A008444DD /* bj@2x.png */; };
+		EBE37EFF13FE0CDA008444DD /* rmb.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE37EF913FE0CDA008444DD /* rmb.png */; };
+		EBE37F0013FE0CDA008444DD /* rmb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE37EFA13FE0CDA008444DD /* rmb@2x.png */; };
+		EBE37F0113FE0CDA008444DD /* tab.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE37EFB13FE0CDA008444DD /* tab.png */; };
+		EBE37F0213FE0CDA008444DD /* tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE37EFC13FE0CDA008444DD /* tab@2x.png */; };
+		EBE37F0313FE0CDA008444DD /* txet.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE37EFD13FE0CDA008444DD /* txet.png */; };
+		EBE37F0413FE0CDA008444DD /* txet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE37EFE13FE0CDA008444DD /* txet@2x.png */; };
+		EBE37F7B13FE3938008444DD /* sliderMaxMin-02.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE37F7A13FE3938008444DD /* sliderMaxMin-02.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* BluetoothAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* BluetoothAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Bluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* BluetoothViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BluetoothViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* BluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* BluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Bluetooth_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bluetooth_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Bluetooth-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Bluetooth-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		EB06ACEF13FEA7CA00D47B1B /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		EB06ACF013FEA7CA00D47B1B /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		EB06ACF113FEA7CA00D47B1B /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		EB06ACF213FEA7CA00D47B1B /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		EB06ACF313FEA7CA00D47B1B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		EB06ACF413FEA7CA00D47B1B /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		EB06ACF513FEA7CA00D47B1B /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		EB06ACF613FEA7CA00D47B1B /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		EB06ACF713FEA7CA00D47B1B /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		EB06ACF813FEA7CA00D47B1B /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		EB06ACF913FEA7CA00D47B1B /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		EB06ACFA13FEA7CA00D47B1B /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		EB06ACFB13FEA7CA00D47B1B /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		EB06ACFC13FEA7CA00D47B1B /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		EB06ACFD13FEA7CA00D47B1B /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		EB06ACFE13FEA7CA00D47B1B /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		EB06ACFF13FEA7CA00D47B1B /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		EB06AD0013FEA7CA00D47B1B /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		EB06AD0113FEA7CA00D47B1B /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		EB06AD0213FEA7CA00D47B1B /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		EB06AD0313FEA7CA00D47B1B /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		EB06AD0413FEA7CA00D47B1B /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		EB06AD0513FEA7CA00D47B1B /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		EB06AD0613FEA7CA00D47B1B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		EB06AD0713FEA7CA00D47B1B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		EB65E95913F90DBA00B99CA8 /* top1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top1@2x.png"; sourceTree = "<group>"; };
+		EB65E95D13F90DFD00B99CA8 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		EB65E96013F90EA700B99CA8 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		EB65E96113F90EA700B99CA8 /* top1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top1.png; sourceTree = "<group>"; };
+		EB65E96413F90F9400B99CA8 /* icon_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_02.png; sourceTree = "<group>"; };
+		EB65E96613F90FD600B99CA8 /* icon_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_02@2x.png"; sourceTree = "<group>"; };
+		EB65E99013F9136800B99CA8 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		EB65E99613F9142E00B99CA8 /* connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect.png; sourceTree = "<group>"; };
+		EB65E99713F9142E00B99CA8 /* disconnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disconnect.png; sourceTree = "<group>"; };
+		EB65E99813F9142E00B99CA8 /* send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send.png; sourceTree = "<group>"; };
+		EB65E99D13F9150400B99CA8 /* textview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textview.png; sourceTree = "<group>"; };
+		EB65E9B613F9171A00B99CA8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		EB65E9B713F9171A00B99CA8 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		EBB8539F13FF83060058607B /* button4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button4.png; sourceTree = "<group>"; };
+		EBB853A013FF83060058607B /* button4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button4@2x.png"; sourceTree = "<group>"; };
+		EBB8544F13FF8D810058607B /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		EBB8548713FF90920058607B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EBE37EEB13FE058A008444DD /* bj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bj.png; sourceTree = "<group>"; };
+		EBE37EEC13FE058A008444DD /* bj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bj@2x.png"; sourceTree = "<group>"; };
+		EBE37EF913FE0CDA008444DD /* rmb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rmb.png; sourceTree = "<group>"; };
+		EBE37EFA13FE0CDA008444DD /* rmb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rmb@2x.png"; sourceTree = "<group>"; };
+		EBE37EFB13FE0CDA008444DD /* tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab.png; sourceTree = "<group>"; };
+		EBE37EFC13FE0CDA008444DD /* tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab@2x.png"; sourceTree = "<group>"; };
+		EBE37EFD13FE0CDA008444DD /* txet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = txet.png; sourceTree = "<group>"; };
+		EBE37EFE13FE0CDA008444DD /* txet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "txet@2x.png"; sourceTree = "<group>"; };
+		EBE37F7A13FE3938008444DD /* sliderMaxMin-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderMaxMin-02.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				EB65E99113F9136800B99CA8 /* GameKit.framework in Frameworks */,
+				EBB8548813FF90920058607B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EB06ACEE13FEA7CA00D47B1B /* JSON */,
+				1D3623240D0F684500981E51 /* BluetoothAppDelegate.h */,
+				1D3623250D0F684500981E51 /* BluetoothAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* BluetoothViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* BluetoothViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Bluetooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Bluetooth_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB65E95813F90DBA00B99CA8 /* Image */,
+				2899E5210DE3E06400AC0155 /* BluetoothViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Bluetooth-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				EB65E99013F9136800B99CA8 /* GameKit.framework */,
+				EBB8548713FF90920058607B /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB06ACEE13FEA7CA00D47B1B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				EB06ACEF13FEA7CA00D47B1B /* NSObject+SBJson.h */,
+				EB06ACF013FEA7CA00D47B1B /* NSObject+SBJson.m */,
+				EB06ACF113FEA7CA00D47B1B /* SBJson.h */,
+				EB06ACF213FEA7CA00D47B1B /* SBJsonParser.h */,
+				EB06ACF313FEA7CA00D47B1B /* SBJsonParser.m */,
+				EB06ACF413FEA7CA00D47B1B /* SBJsonStreamParser.h */,
+				EB06ACF513FEA7CA00D47B1B /* SBJsonStreamParser.m */,
+				EB06ACF613FEA7CA00D47B1B /* SBJsonStreamParserAccumulator.h */,
+				EB06ACF713FEA7CA00D47B1B /* SBJsonStreamParserAccumulator.m */,
+				EB06ACF813FEA7CA00D47B1B /* SBJsonStreamParserAdapter.h */,
+				EB06ACF913FEA7CA00D47B1B /* SBJsonStreamParserAdapter.m */,
+				EB06ACFA13FEA7CA00D47B1B /* SBJsonStreamParserState.h */,
+				EB06ACFB13FEA7CA00D47B1B /* SBJsonStreamParserState.m */,
+				EB06ACFC13FEA7CA00D47B1B /* SBJsonStreamWriter.h */,
+				EB06ACFD13FEA7CA00D47B1B /* SBJsonStreamWriter.m */,
+				EB06ACFE13FEA7CA00D47B1B /* SBJsonStreamWriterAccumulator.h */,
+				EB06ACFF13FEA7CA00D47B1B /* SBJsonStreamWriterAccumulator.m */,
+				EB06AD0013FEA7CA00D47B1B /* SBJsonStreamWriterState.h */,
+				EB06AD0113FEA7CA00D47B1B /* SBJsonStreamWriterState.m */,
+				EB06AD0213FEA7CA00D47B1B /* SBJsonTokeniser.h */,
+				EB06AD0313FEA7CA00D47B1B /* SBJsonTokeniser.m */,
+				EB06AD0413FEA7CA00D47B1B /* SBJsonUTF8Stream.h */,
+				EB06AD0513FEA7CA00D47B1B /* SBJsonUTF8Stream.m */,
+				EB06AD0613FEA7CA00D47B1B /* SBJsonWriter.h */,
+				EB06AD0713FEA7CA00D47B1B /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		EB65E95813F90DBA00B99CA8 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EBB8544F13FF8D810058607B /* image.png */,
+				EBB8539F13FF83060058607B /* button4.png */,
+				EBB853A013FF83060058607B /* button4@2x.png */,
+				EBE37F7A13FE3938008444DD /* sliderMaxMin-02.png */,
+				EBE37EF913FE0CDA008444DD /* rmb.png */,
+				EBE37EFA13FE0CDA008444DD /* rmb@2x.png */,
+				EBE37EFB13FE0CDA008444DD /* tab.png */,
+				EBE37EFC13FE0CDA008444DD /* tab@2x.png */,
+				EBE37EFD13FE0CDA008444DD /* txet.png */,
+				EBE37EFE13FE0CDA008444DD /* txet@2x.png */,
+				EBE37EEB13FE058A008444DD /* bj.png */,
+				EBE37EEC13FE058A008444DD /* bj@2x.png */,
+				EB65E9B613F9171A00B99CA8 /* icon.png */,
+				EB65E9B713F9171A00B99CA8 /* icon@2x.png */,
+				EB65E99D13F9150400B99CA8 /* textview.png */,
+				EB65E99613F9142E00B99CA8 /* connect.png */,
+				EB65E99713F9142E00B99CA8 /* disconnect.png */,
+				EB65E99813F9142E00B99CA8 /* send.png */,
+				EB65E96613F90FD600B99CA8 /* icon_02@2x.png */,
+				EB65E96413F90F9400B99CA8 /* icon_02.png */,
+				EB65E96013F90EA700B99CA8 /* bg.png */,
+				EB65E96113F90EA700B99CA8 /* top1.png */,
+				EB65E95D13F90DFD00B99CA8 /* bg@2x.png */,
+				EB65E95913F90DBA00B99CA8 /* top1@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Bluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Bluetooth" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bluetooth;
+			productName = Bluetooth;
+			productReference = 1D6058910D05DD3D006BFB54 /* Bluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Bluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Bluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* BluetoothViewController.xib in Resources */,
+				EB65E95A13F90DBA00B99CA8 /* top1@2x.png in Resources */,
+				EB65E95E13F90DFD00B99CA8 /* bg@2x.png in Resources */,
+				EB65E96213F90EA700B99CA8 /* bg.png in Resources */,
+				EB65E96313F90EA700B99CA8 /* top1.png in Resources */,
+				EB65E96513F90F9400B99CA8 /* icon_02.png in Resources */,
+				EB65E96713F90FD600B99CA8 /* icon_02@2x.png in Resources */,
+				EB65E99913F9142E00B99CA8 /* connect.png in Resources */,
+				EB65E99A13F9142E00B99CA8 /* disconnect.png in Resources */,
+				EB65E99B13F9142E00B99CA8 /* send.png in Resources */,
+				EB65E99E13F9150400B99CA8 /* textview.png in Resources */,
+				EB65E9B813F9171A00B99CA8 /* icon.png in Resources */,
+				EB65E9B913F9171A00B99CA8 /* icon@2x.png in Resources */,
+				EBE37EED13FE058A008444DD /* bj.png in Resources */,
+				EBE37EEE13FE058A008444DD /* bj@2x.png in Resources */,
+				EBE37EFF13FE0CDA008444DD /* rmb.png in Resources */,
+				EBE37F0013FE0CDA008444DD /* rmb@2x.png in Resources */,
+				EBE37F0113FE0CDA008444DD /* tab.png in Resources */,
+				EBE37F0213FE0CDA008444DD /* tab@2x.png in Resources */,
+				EBE37F0313FE0CDA008444DD /* txet.png in Resources */,
+				EBE37F0413FE0CDA008444DD /* txet@2x.png in Resources */,
+				EBE37F7B13FE3938008444DD /* sliderMaxMin-02.png in Resources */,
+				EBB853A113FF83060058607B /* button4.png in Resources */,
+				EBB853A213FF83060058607B /* button4@2x.png in Resources */,
+				EBB8545013FF8D810058607B /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* BluetoothAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* BluetoothViewController.m in Sources */,
+				EB06AD0813FEA7CA00D47B1B /* NSObject+SBJson.m in Sources */,
+				EB06AD0913FEA7CA00D47B1B /* SBJsonParser.m in Sources */,
+				EB06AD0A13FEA7CA00D47B1B /* SBJsonStreamParser.m in Sources */,
+				EB06AD0B13FEA7CA00D47B1B /* SBJsonStreamParserAccumulator.m in Sources */,
+				EB06AD0C13FEA7CA00D47B1B /* SBJsonStreamParserAdapter.m in Sources */,
+				EB06AD0D13FEA7CA00D47B1B /* SBJsonStreamParserState.m in Sources */,
+				EB06AD0E13FEA7CA00D47B1B /* SBJsonStreamWriter.m in Sources */,
+				EB06AD0F13FEA7CA00D47B1B /* SBJsonStreamWriterAccumulator.m in Sources */,
+				EB06AD1013FEA7CA00D47B1B /* SBJsonStreamWriterState.m in Sources */,
+				EB06AD1113FEA7CA00D47B1B /* SBJsonTokeniser.m in Sources */,
+				EB06AD1213FEA7CA00D47B1B /* SBJsonUTF8Stream.m in Sources */,
+				EB06AD1313FEA7CA00D47B1B /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: changlei han (CKRBK8NJR3)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bluetooth_Prefix.pch;
+				INFOPLIST_FILE = "Bluetooth-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = Bluetooth;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "32A5E3C1-276F-4DBE-BB9D-59DDF90E9DB9";
+				SDKROOT = iphoneos4.3;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Bluetooth_Prefix.pch;
+				INFOPLIST_FILE = "Bluetooth-Info.plist";
+				PRODUCT_NAME = Bluetooth;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Bluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

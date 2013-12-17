@@ -1,0 +1,1915 @@
+TBluetooth
+v7
+r0
+t335586916.513233
+cCheck dependencies
+cProcessInfoPlistFile "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Info.plist" Bluetooth-Info.plist
+cCompileXIB "/Users/mb471/Desktop/Bluetooth send/MainWindow.xib"
+cCompileXIB "/Users/mb471/Desktop/Bluetooth send/BluetoothViewController.xib"
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/top1@2x.png Image/top1@2x.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/bg@2x.png Image/bg@2x.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/bg.png Image/bg.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/top1.png Image/top1.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/icon_02.png Image/icon_02.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/icon_02@2x.png Image/icon_02@2x.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/connect.png Image/connect.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/disconnect.png Image/disconnect.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/send.png Image/send.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/textview.png Image/textview.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/icon.png Image/icon.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/icon@2x.png Image/icon@2x.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/bj.png Image/bj.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/bj@2x.png Image/bj@2x.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/rmb.png Image/rmb.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/rmb@2x.png Image/rmb@2x.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/tab.png Image/tab.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/tab@2x.png Image/tab@2x.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/txet.png Image/txet.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/txet@2x.png Image/txet@2x.png
+cCpResource build/Debug-iphonesimulator/Bluetooth.app/sliderMaxMin-02.png Image/sliderMaxMin-02.png
+cProcessPCH /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch.gch Bluetooth_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/main.o "/Users/mb471/Desktop/Bluetooth send/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothAppDelegate.o "/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothViewController.o "/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SlideToCancelViewController.o "/Users/mb471/Desktop/Bluetooth send/Classes/SlideToCancelViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/NSObject+SBJson.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/NSObject+SBJson.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonParser.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParser.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAccumulator.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAdapter.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAdapter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserState.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserState.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriter.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterAccumulator.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterState.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterState.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonTokeniser.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonTokeniser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonUTF8Stream.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonUTF8Stream.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonWriter.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth" normal i386
+cGenerateDSYMFile "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app.dSYM" "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth"
+cTouch "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004D5DE8B8000000000018FBB0
+t1298000056
+s1637296
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004D5DE8A60000000000000348
+t1298000038
+s840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A1198340000000000000C7E
+t1242667060
+s3198
+
+N/Users/mb471/Desktop/Bluetooth send/BluetoothViewController.xib
+c000000004E4F745A000000000000B384
+t1313829978
+s45956
+
+N/Users/mb471/Desktop/Bluetooth send/Bluetooth_Prefix.pch
+c000000004E4E7C5F00000000000000CF
+t1313766495
+s207
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"SBJson.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothAppDelegate.h
+c000000004E48D4F400000000000001E3
+t1313395956
+s483
+i<UIKit/UIKit.h>
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothAppDelegate.m
+c000000004E48D4F40000000000000AAC
+t1313395956
+s2732
+i"BluetoothAppDelegate.h"
+i"BluetoothViewController.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.h
+c000000004E4F729400000000000005B3
+t1313829524
+s1459
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+i"SlideToCancelViewController.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m
+c000000004E506EE20000000000002508
+t1313894114
+s9480
+i"BluetoothViewController.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/NSObject+SBJson.h
+c000000004E32591500000000000008B7
+t1311922453
+s2231
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/NSObject+SBJson.m
+c000000004E32591500000000000008A6
+t1311922453
+s2214
+i"NSObject+SBJson.h"
+i"SBJsonWriter.h"
+i"SBJsonParser.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJson.h
+c000000004E3259150000000000000DA2
+t1311922453
+s3490
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"SBJsonStreamWriter.h"
+i"NSObject+SBJson.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonParser.h
+c000000004E3259150000000000000DCA
+t1311922453
+s3530
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonParser.m
+c000000004E3259150000000000000C82
+t1311922453
+s3202
+i"SBJsonParser.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParser.h
+c000000004E3259150000000000001550
+t1311922453
+s5456
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParser.m
+c000000004E3259150000000000001A9C
+t1311922453
+s6812
+i"SBJsonStreamParser.h"
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParserState.h"
+i<limits.h>
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAccumulator.h
+c000000004E32591500000000000006AE
+t1311922453
+s1710
+i<Foundation/Foundation.h>
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAccumulator.m
+c000000004E325915000000000000074B
+t1311922453
+s1867
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAdapter.h
+c000000004E325915000000000000141D
+t1311922453
+s5149
+i<Foundation/Foundation.h>
+i"SBJsonStreamParser.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAdapter.m
+c000000004E32591500000000000011BA
+t1311922453
+s4538
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserState.h
+c000000004E3259150000000000000B22
+t1311922453
+s2850
+i<Foundation/Foundation.h>
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParser.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserState.m
+c000000004E3259150000000000001FB6
+t1311922453
+s8118
+i"SBJsonStreamParserState.h"
+i"SBJsonStreamParser.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriter.h
+c000000004E32591500000000000015F9
+t1311922453
+s5625
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriter.m
+c000000004E3259150000000000002A10
+t1311922453
+s10768
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterState.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterAccumulator.h
+c000000004E3259150000000000000693
+t1311922453
+s1683
+i"SBJsonStreamWriter.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterAccumulator.m
+c000000004E32591500000000000007E7
+t1311922453
+s2023
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterState.h
+c000000004E32591500000000000009EC
+t1311922453
+s2540
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterState.m
+c000000004E3259150000000000000F61
+t1311922453
+s3937
+i"SBJsonStreamWriterState.h"
+i"SBJsonStreamWriter.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonTokeniser.h
+c000000004E3259150000000000000888
+t1311922453
+s2184
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonTokeniser.m
+c000000004E3259150000000000003115
+t1311922453
+s12565
+i"SBJsonTokeniser.h"
+i"SBJsonUTF8Stream.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonUTF8Stream.h
+c000000004E3259150000000000000814
+t1311922453
+s2068
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonUTF8Stream.m
+c000000004E3259150000000000000F06
+t1311922453
+s3846
+i"SBJsonUTF8Stream.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonWriter.h
+c000000004E3259150000000000001059
+t1311922453
+s4185
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonWriter.m
+c000000004E3259150000000000000D81
+t1311922453
+s3457
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/SlideToCancelViewController.h
+c000000004E4F618F000000000000029F
+t1313825167
+s671
+i<UIKit/UIKit.h>
+
+N/Users/mb471/Desktop/Bluetooth send/Classes/SlideToCancelViewController.m
+c000000004E4F61A20000000000002AEB
+t1313825186
+s10987
+i<QuartzCore/QuartzCore.h>
+i"SlideToCancelViewController.h"
+
+N/Users/mb471/Desktop/Bluetooth send/Image/bg.png
+c000000004E4DC8BA0000000000028E0B
+t1313720506
+s167435
+
+N/Users/mb471/Desktop/Bluetooth send/Image/bg@2x.png
+c000000004E4DC8770000000000094E01
+t1313720439
+s609793
+
+N/Users/mb471/Desktop/Bluetooth send/Image/bj.png
+c000000004E4DCDE2000000000000087C
+t1313721826
+s2172
+
+N/Users/mb471/Desktop/Bluetooth send/Image/bj@2x.png
+c000000004E4DCD92000000000000141E
+t1313721746
+s5150
+
+N/Users/mb471/Desktop/Bluetooth send/Image/connect.png
+c000000004E4DE16E0000000000000BFC
+t1313726830
+s3068
+
+N/Users/mb471/Desktop/Bluetooth send/Image/disconnect.png
+c000000004CAEC3C8000000000000293B
+t1286521800
+s10555
+
+N/Users/mb471/Desktop/Bluetooth send/Image/icon.png
+c000000004E4C856F00000000000016B9
+t1313637743
+s5817
+
+N/Users/mb471/Desktop/Bluetooth send/Image/icon@2x.png
+c000000004E4C84DA0000000000004BC7
+t1313637594
+s19399
+
+N/Users/mb471/Desktop/Bluetooth send/Image/icon_02.png
+c000000004E48D8390000000000000F7E
+t1313396793
+s3966
+
+N/Users/mb471/Desktop/Bluetooth send/Image/icon_02@2x.png
+c000000004E32591100000000000018EE
+t1311922449
+s6382
+
+N/Users/mb471/Desktop/Bluetooth send/Image/rmb.png
+c000000004E4F692E00000000000019C0
+t1313827118
+s6592
+
+N/Users/mb471/Desktop/Bluetooth send/Image/rmb@2x.png
+c000000004E4F692F00000000000038DD
+t1313827119
+s14557
+
+N/Users/mb471/Desktop/Bluetooth send/Image/send.png
+c000000004CAEC3C800000000000029B0
+t1286521800
+s10672
+
+N/Users/mb471/Desktop/Bluetooth send/Image/sliderMaxMin-02.png
+c000000004D75311C000000000000008B
+t1299525916
+s139
+
+N/Users/mb471/Desktop/Bluetooth send/Image/tab.png
+c000000004E4E0C7E00000000000004A9
+t1313737854
+s1193
+
+N/Users/mb471/Desktop/Bluetooth send/Image/tab@2x.png
+c000000004E4E0E4A00000000000009E5
+t1313738314
+s2533
+
+N/Users/mb471/Desktop/Bluetooth send/Image/textview.png
+c000000004E3259110000000000000F55
+t1311922449
+s3925
+
+N/Users/mb471/Desktop/Bluetooth send/Image/top1.png
+c000000004E4DC620000000000000028B
+t1313719840
+s651
+
+N/Users/mb471/Desktop/Bluetooth send/Image/top1@2x.png
+c000000004E4DC5A900000000000004C7
+t1313719721
+s1223
+
+N/Users/mb471/Desktop/Bluetooth send/Image/txet.png
+c000000004E4DD4E80000000000000DB6
+t1313723624
+s3510
+
+N/Users/mb471/Desktop/Bluetooth send/Image/txet@2x.png
+c000000004E4DD4200000000000000675
+t1313723424
+s1653
+
+N/Users/mb471/Desktop/Bluetooth send/MainWindow.xib
+c000000004E48D4F40000000000004E41
+t1313395956
+s20033
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/Bluetooth.LinkFileList
+c000000004E4F5F7400000000000008A5
+t1313824628
+s2213
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothAppDelegate.o
+t1313829524
+s53008
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothViewController.o
+t1313894115
+s86924
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/NSObject+SBJson.o
+t1313824630
+s8604
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonParser.o
+t1313824630
+s15856
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParser.o
+t1313824630
+s28772
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+t1313824630
+s9332
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+t1313824630
+s24544
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserState.o
+t1313824630
+s45168
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriter.o
+t1313824630
+s45808
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+t1313824630
+s10596
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterState.o
+t1313824630
+s28000
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonTokeniser.o
+t1313824630
+s30560
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonUTF8Stream.o
+t1313824630
+s17420
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonWriter.o
+t1313824630
+s17864
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SlideToCancelViewController.o
+t1313825186
+s67460
+
+N/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/main.o
+t1313824629
+s6360
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app
+t1313894116
+s952
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app.dSYM
+t1313894116
+s102
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth
+t1313894116
+s154852
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/BluetoothViewController.nib
+t1313829980
+s7150
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Info.plist
+t1313808496
+s592
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/MainWindow.nib
+t1313637797
+s1685
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/PkgInfo
+t1313808496
+s8
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/bg.png
+t1313720561
+s167435
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/bg@2x.png
+t1313720561
+s609793
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/bj.png
+t1313722025
+s2172
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/bj@2x.png
+t1313722025
+s5150
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/connect.png
+t1313727185
+s3068
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/disconnect.png
+t1313637797
+s10555
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/icon.png
+t1313637797
+s5817
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/icon@2x.png
+t1313637797
+s19399
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/icon_02.png
+t1313637797
+s3966
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/icon_02@2x.png
+t1313637797
+s6382
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/rmb.png
+t1313827595
+s6592
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/rmb@2x.png
+t1313827595
+s14557
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/send.png
+t1313637797
+s10672
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/sliderMaxMin-02.png
+t1313735402
+s139
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/tab.png
+t1313756029
+s1193
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/tab@2x.png
+t1313756029
+s2533
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/textview.png
+t1313637797
+s3925
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/top1.png
+t1313720109
+s651
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/top1@2x.png
+t1313720109
+s1223
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/txet.png
+t1313724341
+s3510
+
+N/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/txet@2x.png
+t1313724341
+s1653
+
+N/Users/mb471/Desktop/Bluetooth send/main.m
+c000000004E48D4F40000000000000163
+t1313395956
+s355
+i<UIKit/UIKit.h>
+
+N/Users/mb471/Documents/Bluetooth/BluetoothViewController.xib
+c000000004E4F203A00000000000125C3
+t1313808442
+s75203
+
+N/Users/mb471/Documents/Bluetooth/Bluetooth_Prefix.pch
+c000000004E4E7C5F00000000000000CF
+t1313766495
+s207
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"SBJson.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.h
+c000000004E48D4F400000000000001E3
+t1313395956
+s483
+i<UIKit/UIKit.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m
+c000000004E48D4F40000000000000AAC
+t1313395956
+s2732
+i"BluetoothAppDelegate.h"
+i"BluetoothViewController.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.h
+c000000004E4E7C5F00000000000005E8
+t1313766495
+s1512
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+i"SlideToCancelViewController.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m
+c000000004E4F206F00000000000023B7
+t1313808495
+s9143
+i"BluetoothViewController.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/NSObject+SBJson.h
+c000000004E32591500000000000008B7
+t1311922453
+s2231
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/NSObject+SBJson.m
+c000000004E32591500000000000008A6
+t1311922453
+s2214
+i"NSObject+SBJson.h"
+i"SBJsonWriter.h"
+i"SBJsonParser.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJson.h
+c000000004E3259150000000000000DA2
+t1311922453
+s3490
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"SBJsonStreamWriter.h"
+i"NSObject+SBJson.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonParser.h
+c000000004E3259150000000000000DCA
+t1311922453
+s3530
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonParser.m
+c000000004E3259150000000000000C82
+t1311922453
+s3202
+i"SBJsonParser.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParser.h
+c000000004E3259150000000000001550
+t1311922453
+s5456
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParser.m
+c000000004E3259150000000000001A9C
+t1311922453
+s6812
+i"SBJsonStreamParser.h"
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParserState.h"
+i<limits.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAccumulator.h
+c000000004E32591500000000000006AE
+t1311922453
+s1710
+i<Foundation/Foundation.h>
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAccumulator.m
+c000000004E325915000000000000074B
+t1311922453
+s1867
+i"SBJsonStreamParserAccumulator.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAdapter.h
+c000000004E325915000000000000141D
+t1311922453
+s5149
+i<Foundation/Foundation.h>
+i"SBJsonStreamParser.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAdapter.m
+c000000004E32591500000000000011BA
+t1311922453
+s4538
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserState.h
+c000000004E3259150000000000000B22
+t1311922453
+s2850
+i<Foundation/Foundation.h>
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParser.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserState.m
+c000000004E3259150000000000001FB6
+t1311922453
+s8118
+i"SBJsonStreamParserState.h"
+i"SBJsonStreamParser.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriter.h
+c000000004E32591500000000000015F9
+t1311922453
+s5625
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriter.m
+c000000004E3259150000000000002A10
+t1311922453
+s10768
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterState.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterAccumulator.h
+c000000004E3259150000000000000693
+t1311922453
+s1683
+i"SBJsonStreamWriter.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterAccumulator.m
+c000000004E32591500000000000007E7
+t1311922453
+s2023
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterState.h
+c000000004E32591500000000000009EC
+t1311922453
+s2540
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterState.m
+c000000004E3259150000000000000F61
+t1311922453
+s3937
+i"SBJsonStreamWriterState.h"
+i"SBJsonStreamWriter.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonTokeniser.h
+c000000004E3259150000000000000888
+t1311922453
+s2184
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonTokeniser.m
+c000000004E3259150000000000003115
+t1311922453
+s12565
+i"SBJsonTokeniser.h"
+i"SBJsonUTF8Stream.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonUTF8Stream.h
+c000000004E3259150000000000000814
+t1311922453
+s2068
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonUTF8Stream.m
+c000000004E3259150000000000000F06
+t1311922453
+s3846
+i"SBJsonUTF8Stream.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonWriter.h
+c000000004E3259150000000000001059
+t1311922453
+s4185
+i<Foundation/Foundation.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonWriter.m
+c000000004E3259150000000000000D81
+t1311922453
+s3457
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterAccumulator.h"
+
+N/Users/mb471/Documents/Bluetooth/Classes/SlideToCancelViewController.h
+c000000004D75311C000000000000038D
+t1299525916
+s909
+i<UIKit/UIKit.h>
+
+N/Users/mb471/Documents/Bluetooth/Classes/SlideToCancelViewController.m
+c000000004E4E0F1A0000000000002AE5
+t1313738522
+s10981
+i<QuartzCore/QuartzCore.h>
+i"SlideToCancelViewController.h"
+
+N/Users/mb471/Documents/Bluetooth/Image/bg.png
+c000000004E4DC8BA0000000000028E0B
+t1313720506
+s167435
+
+N/Users/mb471/Documents/Bluetooth/Image/bg@2x.png
+c000000004E4DC8770000000000094E01
+t1313720439
+s609793
+
+N/Users/mb471/Documents/Bluetooth/Image/bj.png
+c000000004E4DCDE2000000000000087C
+t1313721826
+s2172
+
+N/Users/mb471/Documents/Bluetooth/Image/bj@2x.png
+c000000004E4DCD92000000000000141E
+t1313721746
+s5150
+
+N/Users/mb471/Documents/Bluetooth/Image/connect.png
+c000000004E4DE16E0000000000000BFC
+t1313726830
+s3068
+
+N/Users/mb471/Documents/Bluetooth/Image/disconnect.png
+c000000004CAEC3C8000000000000293B
+t1286521800
+s10555
+
+N/Users/mb471/Documents/Bluetooth/Image/icon.png
+c000000004E4C856F00000000000016B9
+t1313637743
+s5817
+
+N/Users/mb471/Documents/Bluetooth/Image/icon@2x.png
+c000000004E4C84DA0000000000004BC7
+t1313637594
+s19399
+
+N/Users/mb471/Documents/Bluetooth/Image/icon_02.png
+c000000004E48D8390000000000000F7E
+t1313396793
+s3966
+
+N/Users/mb471/Documents/Bluetooth/Image/icon_02@2x.png
+c000000004E32591100000000000018EE
+t1311922449
+s6382
+
+N/Users/mb471/Documents/Bluetooth/Image/rmb.png
+c000000004E4DD4A60000000000000695
+t1313723558
+s1685
+
+N/Users/mb471/Documents/Bluetooth/Image/rmb@2x.png
+c000000004E4DD3A10000000000000A9D
+t1313723297
+s2717
+
+N/Users/mb471/Documents/Bluetooth/Image/send.png
+c000000004CAEC3C800000000000029B0
+t1286521800
+s10672
+
+N/Users/mb471/Documents/Bluetooth/Image/sliderMaxMin-02.png
+c000000004D75311C000000000000008B
+t1299525916
+s139
+
+N/Users/mb471/Documents/Bluetooth/Image/tab.png
+c000000004E4E0C7E00000000000004A9
+t1313737854
+s1193
+
+N/Users/mb471/Documents/Bluetooth/Image/tab@2x.png
+c000000004E4E0E4A00000000000009E5
+t1313738314
+s2533
+
+N/Users/mb471/Documents/Bluetooth/Image/textview.png
+c000000004E3259110000000000000F55
+t1311922449
+s3925
+
+N/Users/mb471/Documents/Bluetooth/Image/top1.png
+c000000004E4DC620000000000000028B
+t1313719840
+s651
+
+N/Users/mb471/Documents/Bluetooth/Image/top1@2x.png
+c000000004E4DC5A900000000000004C7
+t1313719721
+s1223
+
+N/Users/mb471/Documents/Bluetooth/Image/txet.png
+c000000004E4DD4E80000000000000DB6
+t1313723624
+s3510
+
+N/Users/mb471/Documents/Bluetooth/Image/txet@2x.png
+c000000004E4DD4200000000000000675
+t1313723424
+s1653
+
+N/Users/mb471/Documents/Bluetooth/MainWindow.xib
+c000000004E48D4F40000000000004E41
+t1313395956
+s20033
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/Bluetooth.LinkFileList
+c000000004E4E7C5F0000000000000875
+t1313766495
+s2165
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothAppDelegate.o
+t1313806885
+s53024
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothViewController.o
+t1313808497
+s81560
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/NSObject+SBJson.o
+t1313806885
+s8596
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonParser.o
+t1313806885
+s15852
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParser.o
+t1313806885
+s28764
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+t1313806885
+s9328
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+t1313806885
+s24536
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserState.o
+t1313806885
+s45164
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriter.o
+t1313806885
+s45808
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+t1313806885
+s10588
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterState.o
+t1313806885
+s27996
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonTokeniser.o
+t1313806885
+s30552
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonUTF8Stream.o
+t1313806885
+s17412
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonWriter.o
+t1313806885
+s17860
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SlideToCancelViewController.o
+t1313806885
+s67444
+
+N/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/main.o
+t1313806885
+s6356
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app
+t1313808497
+s952
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app.dSYM
+t1313808497
+s102
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth
+t1313808497
+s149672
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/BluetoothViewController.nib
+t1313808496
+s11240
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Info.plist
+t1313808496
+s592
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/MainWindow.nib
+t1313637797
+s1685
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/PkgInfo
+t1313808496
+s8
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/bg.png
+t1313720561
+s167435
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/bg@2x.png
+t1313720561
+s609793
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/bj.png
+t1313722025
+s2172
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/bj@2x.png
+t1313722025
+s5150
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/connect.png
+t1313727185
+s3068
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/disconnect.png
+t1313637797
+s10555
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/icon.png
+t1313637797
+s5817
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/icon@2x.png
+t1313637797
+s19399
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/icon_02.png
+t1313637797
+s3966
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/icon_02@2x.png
+t1313637797
+s6382
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/rmb.png
+t1313724341
+s1685
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/rmb@2x.png
+t1313724341
+s2717
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/send.png
+t1313637797
+s10672
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/sliderMaxMin-02.png
+t1313735402
+s139
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/tab.png
+t1313756029
+s1193
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/tab@2x.png
+t1313756029
+s2533
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/textview.png
+t1313637797
+s3925
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/top1.png
+t1313720109
+s651
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/top1@2x.png
+t1313720109
+s1223
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/txet.png
+t1313724341
+s3510
+
+N/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/txet@2x.png
+t1313724341
+s1653
+
+N/Users/mb471/Documents/Bluetooth/main.m
+c000000004E48D4F40000000000000163
+t1313395956
+s355
+i<UIKit/UIKit.h>
+
+N/var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch.gch
+t1313824629
+s15933072
+
+N/var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-fzczayutfdwtnodawhzssswhpnno/Bluetooth_Prefix.pch.gch
+t1313766496
+s15933072
+
+N/var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch.gch
+t1313806885
+s15933072
+
+NBluetooth-Info.plist
+c000000004E4F206F0000000000000384
+t1313808495
+s900
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335586914#335586914#0(0"0(0#1#0"8611373376#0"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothAppDelegate.o "/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335522324.691487
+e335522324.826160
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothAppDelegate.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/mb471/Desktop/Bluetooth send/Classes/BluetoothAppDelegate.m335522324#335522324#0(0"0(0#0#66"/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothAppDelegate.m8630587872#1983"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothAppDelegate.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothAppDelegate.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothAppDelegate.o /Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.050124
+e335499685.216726
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothAppDelegate.o
+x/Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m335499685#335499685#0(0"0(0#0#63"/Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m8613313952#1928"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/BluetoothAppDelegate.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothAppDelegate.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothViewController.o "/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335586914.842275
+e335586915.971261
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothViewController.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m: In function '-[BluetoothViewController peerPickerController:didConnectPeer:toSession:]':
+o/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m:277: warning: local declaration of 'picker' hides instance variable
+o/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m:278: warning: local declaration of 'picker' hides instance variable
+lSLF07#2@77"Compile /Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m335586914#335586915#0(436"/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m: In function '-[BluetoothViewController peerPickerController:didConnectPeer:toSession:]':/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m:277: warning: local declaration of 'picker' hides instance variable/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m:278: warning: local declaration of 'picker' hides instance variable2(22@53"Local declaration of 'picker' hides instance variable335586915#160#138#0(6@69"/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m335586914#277#0#277#0#0"0(22@53"Local declaration of 'picker' hides instance variable335586915#298#138#0(6@69"/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m335586914#278#0#278#0#0"0(0#0#69"/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m7083932847239164928#1989"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/BluetoothViewController.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothViewController.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothViewController.o /Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335501296.860517
+e335501297.045200
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothViewController.o
+x/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m: In function '-[BluetoothViewController viewDidLoad]':
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:42: warning: 'BluetoothViewController' may not respond to '-showSlide'
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:42: warning: (Messages without a matching method signature
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:42: warning: will be assumed to return 'id' and accept
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:42: warning: '...' as arguments.)
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m: In function '-[BluetoothViewController peerPickerController:didConnectPeer:toSession:]':
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:268: warning: local declaration of 'picker' hides instance variable
+o/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:269: warning: local declaration of 'picker' hides instance variable
+lSLF07#2@74"Compile /Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m335501296#335501297#0(1036"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m: In function '-[BluetoothViewController viewDidLoad]':/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:42: warning: 'BluetoothViewController' may not respond to '-showSlide'/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:42: warning: (Messages without a matching method signature/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:42: warning: will be assumed to return 'id' and accept/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:42: warning: '...' as arguments.)/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m: In function '-[BluetoothViewController peerPickerController:didConnectPeer:toSession:]':/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:268: warning: local declaration of 'picker' hides instance variable/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m:269: warning: local declaration of 'picker' hides instance variable4(22@57"'BluetoothViewController' may not respond to '-showSlide'335501296#122#138#0(6@66"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m335501295#42#0#42#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)335501296#260#126#0(6@66"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m335501295#42#0#42#0#0"0(22@53"Local declaration of 'picker' hides instance variable335501296#766#135#0(6@66"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m335501295#268#0#268#0#0"0(22@53"Local declaration of 'picker' hides instance variable335501296#901#135#0(6@66"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m335501295#269#0#269#0#0"0(0#0#66"/Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m8618536800#1934"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/BluetoothViewController.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/BluetoothViewController.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/NSObject+SBJson.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/NSObject+SBJson.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.147523
+e335517430.216393
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/NSObject+SBJson.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/NSObject+SBJson.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/NSObject+SBJson.m335517430#335517430#0(0"0(0#0#66"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/NSObject+SBJson.m8641640608#1978"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/NSObject+SBJson.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/NSObject+SBJson.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/NSObject+SBJson.o /Users/mb471/Documents/Bluetooth/Classes/JSON/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.335011
+e335499685.394055
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/NSObject+SBJson.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/NSObject+SBJson.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/NSObject+SBJson.m335499685#335499685#0(0"0(0#0#63"/Users/mb471/Documents/Bluetooth/Classes/JSON/NSObject+SBJson.m8612915552#1923"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/NSObject+SBJson.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/NSObject+SBJson.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonParser.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.216499
+e335517430.288229
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonParser.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonParser.m335517430#335517430#0(0"0(0#0#63"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonParser.m8640885216#1972"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonParser.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonParser.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonParser.o /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.359043
+e335499685.428011
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonParser.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonParser.m335499685#335499685#0(0"0(0#0#60"/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonParser.m8609545312#1917"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonParser.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParser.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.217687
+e335517430.317177
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParser.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParser.m335517430#335517430#0(0"0(0#0#69"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParser.m8638565056#1984"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParser.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParser.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParser.o /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.394158
+e335499685.498932
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParser.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParser.m335499685#335499685#0(0"0(0#0#66"/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParser.m8604487168#1929"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParser.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParser.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAccumulator.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.288334
+e335517430.358373
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAccumulator.m335517430#335517430#0(0"0(0#0#80"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAccumulator.m8628237120#2006"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAccumulator.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.428111
+e335499685.496592
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAccumulator.m335499685#335499685#0(0"0(0#0#77"/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAccumulator.m8618615872#1951"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAccumulator.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAdapter.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAdapter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.317293
+e335517430.440209
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAdapter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAdapter.m335517430#335517430#0(0"0(0#0#76"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAdapter.m8624146528#1998"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserAdapter.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAdapter.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.496690
+e335499685.623007
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAdapter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAdapter.m335499685#335499685#0(0"0(0#0#73"/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAdapter.m8618360992#1943"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserAdapter.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserAdapter.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserState.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserState.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.358478
+e335517430.458837
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserState.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserState.m335517430#335517430#0(0"0(0#0#74"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserState.m8640349952#1994"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamParserState.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserState.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserState.o /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.499008
+e335499685.602288
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserState.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserState.m335499685#335499685#0(0"0(0#0#71"/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserState.m8614717664#1939"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamParserState.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamParserState.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriter.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.440341
+e335517430.609349
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriter.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriter.m335517430#335517430#0(0"0(0#0#69"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriter.m8642352832#1984"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriter.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriter.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriter.o /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.602383
+e335499685.741710
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriter.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriter.m335499685#335499685#0(0"0(0#0#66"/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriter.m8613475904#1929"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriter.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriter.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterAccumulator.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.458950
+e335517430.517083
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterAccumulator.m335517430#335517430#0(0"0(0#0#80"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterAccumulator.m8641633120#2006"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterAccumulator.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.623098
+e335499685.696953
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterAccumulator.m335499685#335499685#0(0"0(0#0#77"/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterAccumulator.m8610841088#1951"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterAccumulator.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterState.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterState.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.517184
+e335517430.591619
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterState.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterState.m335517430#335517430#0(0"0(0#0#74"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterState.m8639421760#1994"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonStreamWriterState.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterState.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterState.o /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.697057
+e335499685.789360
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterState.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterState.m335499685#335499685#0(0"0(0#0#71"/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterState.m8597994464#1939"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonStreamWriterState.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonStreamWriterState.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonTokeniser.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonTokeniser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.592003
+e335517430.719762
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonTokeniser.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonTokeniser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonTokeniser.m335517430#335517430#0(0"0(0#0#66"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonTokeniser.m8616872160#1978"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonTokeniser.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonTokeniser.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonTokeniser.o /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.741867
+e335499685.849555
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonTokeniser.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonTokeniser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonTokeniser.m335499685#335499685#0(0"0(0#0#63"/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonTokeniser.m8615658816#1923"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonTokeniser.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonTokeniser.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonUTF8Stream.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonUTF8Stream.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.609450
+e335517430.680570
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonUTF8Stream.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonUTF8Stream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonUTF8Stream.m335517430#335517430#0(0"0(0#0#67"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonUTF8Stream.m8639431360#1980"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonUTF8Stream.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonUTF8Stream.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonUTF8Stream.o /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.789449
+e335499685.871803
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonUTF8Stream.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonUTF8Stream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonUTF8Stream.m335499685#335499685#0(0"0(0#0#64"/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonUTF8Stream.m8618548960#1925"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonUTF8Stream.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonUTF8Stream.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonWriter.o "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517430.680676
+e335517430.749388
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonWriter.m335517430#335517430#0(0"0(0#0#63"/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonWriter.m8639292416#1972"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/JSON/SBJsonWriter.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonWriter.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonWriter.o /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.849668
+e335499685.910260
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonWriter.m335499685#335499685#0(0"0(0#0#60"/Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonWriter.m8616783616#1917"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/JSON/SBJsonWriter.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SlideToCancelViewController.o "/Users/mb471/Desktop/Bluetooth send/Classes/SlideToCancelViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517986.071279
+e335517986.396977
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SlideToCancelViewController.o
+x/Users/mb471/Desktop/Bluetooth send/Classes/SlideToCancelViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/mb471/Desktop/Bluetooth send/Classes/SlideToCancelViewController.m335517986#335517986#0(0"0(0#0#73"/Users/mb471/Desktop/Bluetooth send/Classes/SlideToCancelViewController.m8640417312#1997"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/Classes/SlideToCancelViewController.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SlideToCancelViewController.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SlideToCancelViewController.o /Users/mb471/Documents/Bluetooth/Classes/SlideToCancelViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.216830
+e335499685.358940
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SlideToCancelViewController.o
+x/Users/mb471/Documents/Bluetooth/Classes/SlideToCancelViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/mb471/Documents/Bluetooth/Classes/SlideToCancelViewController.m335499685#335499685#0(0"0(0#0#70"/Users/mb471/Documents/Bluetooth/Classes/SlideToCancelViewController.m8618805024#1942"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/Classes/SlideToCancelViewController.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/SlideToCancelViewController.o0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/main.o "/Users/mb471/Desktop/Bluetooth send/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517429.777664
+e335517429.921986
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/main.o
+x/Users/mb471/Desktop/Bluetooth send/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/mb471/Desktop/Bluetooth send/main.m335517429#335517429#0(0"0(0#0#42"/Users/mb471/Desktop/Bluetooth send/main.m8642675776#1943"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch -c "/Users/mb471/Desktop/Bluetooth send/main.m" -o "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/main.o /Users/mb471/Documents/Bluetooth/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499685.049159
+e335499685.196546
+r1
+xCompileC
+xbuild/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/main.o
+x/Users/mb471/Documents/Bluetooth/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/mb471/Documents/Bluetooth/main.m335499685#335499685#0(0"0(0#0#39"/Users/mb471/Documents/Bluetooth/main.m8612721952#1888"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -include /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch -c /Users/mb471/Documents/Bluetooth/main.m -o /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/main.o0#
+
+CCompileXIB "/Users/mb471/Desktop/Bluetooth send/BluetoothViewController.xib"
+s335522779.802310
+e335522780.486643
+r1
+xCompileXIB
+x/Users/mb471/Desktop/Bluetooth send/BluetoothViewController.xib
+lSLF07#2@38"CompileXIB BluetoothViewController.xib335522779#335522780#0(0"0(0#0#63"/Users/mb471/Desktop/Bluetooth send/BluetoothViewController.xib8637436416#595"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/BluetoothViewController.nib" "/Users/mb471/Desktop/Bluetooth send/BluetoothViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/mb471/Desktop/Bluetooth send/MainWindow.xib"
+r0
+
+CCompileXIB /Users/mb471/Documents/Bluetooth/BluetoothViewController.xib
+s335501296.287452
+e335501296.860145
+r1
+xCompileXIB
+x/Users/mb471/Documents/Bluetooth/BluetoothViewController.xib
+lSLF07#2@38"CompileXIB BluetoothViewController.xib335501296#335501296#0(0"0(0#0#60"/Users/mb471/Documents/Bluetooth/BluetoothViewController.xib8613653920#580"    cd /Users/mb471/Documents/Bluetooth    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/BluetoothViewController.nib /Users/mb471/Documents/Bluetooth/BluetoothViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/mb471/Documents/Bluetooth/MainWindow.xib
+s335330597.356678
+e335330597.753639
+r1
+xCompileXIB
+x/Users/mb471/Documents/Bluetooth/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib335330597#335330597#0(0"0(0#0#47"/Users/mb471/Documents/Bluetooth/MainWindow.xib8603273856#554"    cd /Users/mb471/Documents/Bluetooth    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/MainWindow.nib /Users/mb471/Documents/Bluetooth/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/bg.png Image/bg.png
+s335413361.680559
+e335413361.697258
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/bg.png
+xImage/bg.png
+lSLF07#2@17"Copy Image/bg.png335413361#335413361#0(0"0(0#0#45"/Users/mb471/Documents/Bluetooth/Image/bg.png8603305344#454"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/bg.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/bg@2x.png Image/bg@2x.png
+s335413361.678967
+e335413361.692580
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/bg@2x.png
+xImage/bg@2x.png
+lSLF07#2@20"Copy Image/bg@2x.png335413361#335413361#0(0"0(0#0#48"/Users/mb471/Documents/Bluetooth/Image/bg@2x.png8603354688#457"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/bg@2x.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/bj.png Image/bj.png
+s335414825.245348
+e335414825.258192
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/bj.png
+xImage/bj.png
+lSLF07#2@17"Copy Image/bj.png335414825#335414825#0(0"0(0#0#45"/Users/mb471/Documents/Bluetooth/Image/bj.png8603896576#454"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/bj.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/bj@2x.png Image/bj@2x.png
+s335414825.246641
+e335414825.254696
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/bj@2x.png
+xImage/bj@2x.png
+lSLF07#2@20"Copy Image/bj@2x.png335414825#335414825#0(0"0(0#0#48"/Users/mb471/Documents/Bluetooth/Image/bj@2x.png8603739392#457"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/bj@2x.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/connect.png Image/connect.png
+s335419985.049525
+e335419985.064058
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/connect.png
+xImage/connect.png
+lSLF07#2@22"Copy Image/connect.png335419985#335419985#0(0"0(0#0#50"/Users/mb471/Documents/Bluetooth/Image/connect.png8615274752#459"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/connect.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/disconnect.png Image/disconnect.png
+s335330597.763121
+e335330597.772361
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/disconnect.png
+xImage/disconnect.png
+lSLF07#2@25"Copy Image/disconnect.png335330597#335330597#0(0"0(0#0#53"/Users/mb471/Documents/Bluetooth/Image/disconnect.png8607557632#462"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/disconnect.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/icon.png Image/icon.png
+s335330597.768448
+e335330597.783001
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/icon.png
+xImage/icon.png
+lSLF07#2@19"Copy Image/icon.png335330597#335330597#0(0"0(0#0#47"/Users/mb471/Documents/Bluetooth/Image/icon.png8606878624#456"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/icon.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/icon@2x.png Image/icon@2x.png
+s335330597.770159
+e335330597.785262
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/icon@2x.png
+xImage/icon@2x.png
+lSLF07#2@22"Copy Image/icon@2x.png335330597#335330597#0(0"0(0#0#50"/Users/mb471/Documents/Bluetooth/Image/icon@2x.png8604330688#459"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/icon@2x.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/icon_02.png Image/icon_02.png
+s335330597.758490
+e335330597.775526
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/icon_02.png
+xImage/icon_02.png
+lSLF07#2@22"Copy Image/icon_02.png335330597#335330597#0(0"0(0#0#50"/Users/mb471/Documents/Bluetooth/Image/icon_02.png8607963264#459"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/icon_02.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/icon_02@2x.png Image/icon_02@2x.png
+s335330597.760023
+e335330597.776404
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/icon_02@2x.png
+xImage/icon_02@2x.png
+lSLF07#2@25"Copy Image/icon_02@2x.png335330597#335330597#0(0"0(0#0#53"/Users/mb471/Documents/Bluetooth/Image/icon_02@2x.png8607807040#462"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/icon_02@2x.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/rmb.png Image/rmb.png
+s335520395.422097
+e335520395.853386
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/rmb.png
+xImage/rmb.png
+lSLF07#2@18"Copy Image/rmb.png335520395#335520395#0(0"0(0#0#49"/Users/mb471/Desktop/Bluetooth send/Image/rmb.png8629218144#470"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/mb471/Desktop/Bluetooth send/Image/rmb.png" "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app"0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/rmb@2x.png Image/rmb@2x.png
+s335520395.422745
+e335520395.853542
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/rmb@2x.png
+xImage/rmb@2x.png
+lSLF07#2@21"Copy Image/rmb@2x.png335520395#335520395#0(0"0(0#0#52"/Users/mb471/Desktop/Bluetooth send/Image/rmb@2x.png8615512512#473"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/mb471/Desktop/Bluetooth send/Image/rmb@2x.png" "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app"0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/send.png Image/send.png
+s335330597.764677
+e335330597.779471
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/send.png
+xImage/send.png
+lSLF07#2@19"Copy Image/send.png335330597#335330597#0(0"0(0#0#47"/Users/mb471/Documents/Bluetooth/Image/send.png8607510496#456"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/send.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/sliderMaxMin-02.png Image/sliderMaxMin-02.png
+s335428202.822124
+e335428202.828109
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/sliderMaxMin-02.png
+xImage/sliderMaxMin-02.png
+lSLF07#2@30"Copy Image/sliderMaxMin-02.png335428202#335428202#0(0"0(0#0#58"/Users/mb471/Documents/Bluetooth/Image/sliderMaxMin-02.png8618828000#467"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/sliderMaxMin-02.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/tab.png Image/tab.png
+s335448829.216018
+e335448829.235456
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/tab.png
+xImage/tab.png
+lSLF07#2@18"Copy Image/tab.png335448829#335448829#0(0"0(0#0#46"/Users/mb471/Documents/Bluetooth/Image/tab.png8617449152#455"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/tab.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/tab@2x.png Image/tab@2x.png
+s335448829.216650
+e335448829.238982
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/tab@2x.png
+xImage/tab@2x.png
+lSLF07#2@21"Copy Image/tab@2x.png335448829#335448829#0(0"0(0#0#49"/Users/mb471/Documents/Bluetooth/Image/tab@2x.png8616922720#458"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/tab@2x.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/textview.png Image/textview.png
+s335330597.766876
+e335330597.778192
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/textview.png
+xImage/textview.png
+lSLF07#2@23"Copy Image/textview.png335330597#335330597#0(0"0(0#0#51"/Users/mb471/Documents/Bluetooth/Image/textview.png8607338752#460"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/textview.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/top1.png Image/top1.png
+s335412909.800055
+e335412909.817268
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/top1.png
+xImage/top1.png
+lSLF07#2@19"Copy Image/top1.png335412909#335412909#0(0"0(0#0#47"/Users/mb471/Documents/Bluetooth/Image/top1.png8604192512#456"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/top1.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/top1@2x.png Image/top1@2x.png
+s335412909.782907
+e335412909.817467
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/top1@2x.png
+xImage/top1@2x.png
+lSLF07#2@22"Copy Image/top1@2x.png335412909#335412909#0(0"0(0#0#50"/Users/mb471/Documents/Bluetooth/Image/top1@2x.png18577550333837424#459"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/top1@2x.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/txet.png Image/txet.png
+s335417141.813834
+e335417141.831087
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/txet.png
+xImage/txet.png
+lSLF07#2@19"Copy Image/txet.png335417141#335417141#0(0"0(0#0#47"/Users/mb471/Documents/Bluetooth/Image/txet.png8598596896#456"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/txet.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CCpResource build/Debug-iphonesimulator/Bluetooth.app/txet@2x.png Image/txet@2x.png
+s335417141.815425
+e335417141.828407
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bluetooth.app/txet@2x.png
+xImage/txet@2x.png
+lSLF07#2@22"Copy Image/txet@2x.png335417141#335417141#0(0"0(0#0#50"/Users/mb471/Documents/Bluetooth/Image/txet@2x.png8609566176#459"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mb471/Documents/Bluetooth/Image/txet@2x.png /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+
+CGenerateDSYMFile "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app.dSYM" "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth"
+s335586916.388836
+e335586916.490251
+r1
+xGenerateDSYMFile
+x/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app.dSYM
+x/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/Bluetooth.app.dSYM build/Debug-iphonesimulator/Bluetooth.app/Bluetooth335586916#335586916#0(0"0(0#0#87"/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth8611482944#386"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth" -o "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app.dSYM"0#
+
+CGenerateDSYMFile /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app.dSYM /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth
+s335501297.097271
+e335501297.122522
+r1
+xGenerateDSYMFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app.dSYM
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/Bluetooth.app.dSYM build/Debug-iphonesimulator/Bluetooth.app/Bluetooth335501297#335501297#0(0"0(0#0#84"/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth8615339456#371"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth -o /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app.dSYM0#
+
+CLd "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth" normal i386
+s335586915.971350
+e335586916.388667
+r1
+xLd
+x/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth
+xnormal
+xi386
+lSLF07#2@92"Link /Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth335586915#335586916#0(0"0(0#0#0"7525630621066290176#924"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" -filelist "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/Bluetooth.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth"0#
+
+CLd /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth normal i386
+s335501297.045298
+e335501297.097160
+r1
+xLd
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth
+xnormal
+xi386
+lSLF07#2@89"Link /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth335501297#335501297#0(0"0(0#0#0"8616081312#899"    cd /Users/mb471/Documents/Bluetooth    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -filelist /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Objects-normal/i386/Bluetooth.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework GameKit -o /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Bluetooth0#
+
+CProcessInfoPlistFile "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app/Info.plist" Bluetooth-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Info.plist Bluetooth-Info.plist
+s335501296.283016
+e335501296.287242
+r1
+xProcessInfoPlistFile
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Info.plist
+xBluetooth-Info.plist
+lSLF07#2@28"Process Bluetooth-Info.plist335501296#335501296#0(0"0(0#0#53"/Users/mb471/Documents/Bluetooth/Bluetooth-Info.plist8614845664#467"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Bluetooth-Info.plist -genpkginfo /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app/Info.plist0#
+
+CProcessPCH /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch.gch Bluetooth_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s335517429.010665
+e335517429.777557
+r1
+xProcessPCH
+x/var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch.gch
+xBluetooth_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Bluetooth_Prefix.pch335517429#335517429#0(0"0(0#0#56"/Users/mb471/Desktop/Bluetooth send/Bluetooth_Prefix.pch8638299072#1834"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap" -iquote "/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap" "-F/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator" "-I/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/include" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386" "-I/Users/mb471/Desktop/Bluetooth send/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources" -c "/Users/mb471/Desktop/Bluetooth send/Bluetooth_Prefix.pch" -o /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-doejclnhldcbzngtmpvvuseadymt/Bluetooth_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-fzczayutfdwtnodawhzssswhpnno/Bluetooth_Prefix.pch.gch Bluetooth_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s335459295.835549
+e335459297.052180
+r1
+xProcessPCH
+x/var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-fzczayutfdwtnodawhzssswhpnno/Bluetooth_Prefix.pch.gch
+xBluetooth_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Bluetooth_Prefix.pch335459295#335459297#0(0"0(0#0#53"/Users/mb471/Documents/Bluetooth/Bluetooth_Prefix.pch8622813728#1784"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -c /Users/mb471/Documents/Bluetooth/Bluetooth_Prefix.pch -o /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-fzczayutfdwtnodawhzssswhpnno/Bluetooth_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch.gch Bluetooth_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s335499684.233510
+e335499685.049057
+r1
+xProcessPCH
+x/var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch.gch
+xBluetooth_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Bluetooth_Prefix.pch335499684#335499685#0(0"0(0#0#53"/Users/mb471/Documents/Bluetooth/Bluetooth_Prefix.pch8615341792#1784"    cd /Users/mb471/Documents/Bluetooth    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-generated-files.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-own-target-headers.hmap -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-all-target-headers.hmap -iquote /Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/Bluetooth-project-headers.hmap -F/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator -I/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/include -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources/i386 -I/Users/mb471/Documents/Bluetooth/build/Bluetooth.build/Debug-iphonesimulator/Bluetooth.build/DerivedSources -c /Users/mb471/Documents/Bluetooth/Bluetooth_Prefix.pch -o /var/folders/oi/oibkzsW6EqatrZQbizqO-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bluetooth_Prefix-gpoemambfmkrzobmqexmwiajazwj/Bluetooth_Prefix.pch.gch0#
+
+CTouch "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app"
+s335586916.490341
+e335586916.513172
+r1
+xTouch
+x/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app
+lSLF07#2@83"Touch /Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app335586916#335586916#0(0"0(0#0#0"8611003552#278"    cd "/Users/mb471/Desktop/Bluetooth send"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/mb471/Desktop/Bluetooth send/build/Debug-iphonesimulator/Bluetooth.app"0#
+
+CTouch /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app
+s335501297.122612
+e335501297.125250
+r1
+xTouch
+x/Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app
+lSLF07#2@80"Touch /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app335501297#335501297#0(0"0(0#0#0"8614887712#268"    cd /Users/mb471/Documents/Bluetooth    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mb471/Documents/Bluetooth/build/Debug-iphonesimulator/Bluetooth.app0#
+

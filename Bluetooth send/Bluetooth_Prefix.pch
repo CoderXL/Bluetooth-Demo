@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Bluetooth' target in the 'Bluetooth' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "SBJson.h"
+#endif
